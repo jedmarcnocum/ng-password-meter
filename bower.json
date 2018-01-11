@@ -1,7 +1,7 @@
 {
   "name": "ng-password-meter",
   "version" : "0.1.6",
-  "homepage": "https://github.com/Cykra/ng-password-meter",
+  "homepage": "https://github.com/jedmarcnocum/ng-password-meter",
   "description": "An easy to implement password strength meter developed and maintained for the Lifekees Password Manager.",
   "main": [
     "./dist/ng-password-meter.js",

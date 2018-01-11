@@ -185,23 +185,23 @@
 					scope.masterClass = '';
 
 					if (scope.strength < 25) {
-						scope.first = 'poor';
-						scope.message	= 'Poor';
+						scope.first = 'Password strength: poor';
+						scope.message	= 'Password strength: Poor';
 					} else if (scope.strength < 50) {
-						scope.first = 'weak';
-						scope.second = 'weak';
-						scope.message	= 'weak';
+						scope.first = 'Password strength: weak';
+						scope.second = 'Password strength: weak';
+						scope.message	= 'Password strength: weak';
 					} else if (scope.strength < 75) {
-						scope.first = 'good';
-						scope.second = 'good';
-						scope.third = 'good';
-						scope.message	= 'good';
+						scope.first = 'Password strength: good';
+						scope.second = 'Password strength: good';
+						scope.third = 'Password strength: good';
+						scope.message	= 'Password strength: good';
 					} else if (scope.strength <= 100) {
-						scope.first = 'strong';
-						scope.second = 'strong';
-						scope.third = 'strong';
-						scope.fourth = 'strong';
-						scope.message	= 'strong';
+						scope.first = 'Password strength: strong';
+						scope.second = 'Password strength: strong';
+						scope.third = 'Password strength: strong';
+						scope.fourth = 'Password strength: strong';
+						scope.message	= 'Password strength: strong';
 					}
 					
 				});
